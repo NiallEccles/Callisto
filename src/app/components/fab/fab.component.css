@@ -1,0 +1,27 @@
+.fab{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background: #ffc80a;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.fab i {
+    font-size: 28px;
+    color: white;
+    cursor: pointer;
+}
+
+.fab.invert{
+    width: 62px;
+    height: 62px;
+    border: 4px solid #ffc80a;
+    background:#ffffff;
+}
+
+.fab.invert i {
+    color: #ffc80a; 
+}

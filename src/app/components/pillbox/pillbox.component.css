@@ -1,0 +1,31 @@
+.pillbox{
+    width: 180px;
+    height: 40px;
+    border: 3px solid #ffc80a;
+    border-bottom-left-radius: 50px;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+
+.pillbox-text{
+    width: 65%;
+    text-align: center;
+    display: inline-flex;
+    align-items: center;
+    height: 100%;
+    justify-content: center;
+}
+
+.pillbox-price{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 35%;
+    height: 100%;
+    color: white;
+    background: #ffc80b;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
