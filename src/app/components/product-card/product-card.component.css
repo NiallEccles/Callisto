@@ -1,0 +1,30 @@
+.product-card{
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding:80px;
+    width: 460px;
+}
+
+.product-info{
+    width: 75%;
+}
+
+.product-type{
+    text-transform: uppercase;
+    color: #80807F;
+    font-size: 12px;
+    letter-spacing: 2px;
+}
+
+.product-name{
+    font-size: 36px;
+}
+
+.product-description{
+    color: #80807F;
+    width: 100%;
+    line-height: 25px;
+    margin: 50px 0;
+}

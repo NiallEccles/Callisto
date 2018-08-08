@@ -6,6 +6,7 @@ import { FabComponent } from './components/fab/fab.component';
 import { CalButtonComponent } from './components/button/cal-button.component';
 import { PillboxComponent } from './components/pillbox/pillbox.component';
 import { TagComponent } from './components/tag/tag.component';
+import { ProductCardComponent } from './components/product-card/product-card.component';
 
 const appRoutes: Routes = [
   { path: '', component: AppComponent },
@@ -19,6 +20,7 @@ const appRoutes: Routes = [
     CalButtonComponent,
     PillboxComponent,
     TagComponent,
+    ProductCardComponent,
   ],
   imports: [
     BrowserModule,
