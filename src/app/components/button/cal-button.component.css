@@ -3,7 +3,8 @@
     height: 60px;
     border-radius: 50%;
     color: #ffffff;
-    background: #f9593a;
+    /* background: #f9593a; */
+    background: var(--primary);
     border-bottom-left-radius: 50px;
     border-top-left-radius: 50px;
     border-top-right-radius: 50px;

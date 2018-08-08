@@ -6,3 +6,7 @@
 .lato{
     font-family: 'Lato', sans-serif;
 }
+
+:root {
+    --primary: #f9593a;
+}

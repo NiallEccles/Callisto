@@ -14,4 +14,13 @@ export class CalButtonComponent implements OnInit {
   ngOnInit() {
   }
 
+  clickEvent(){
+    if(document.documentElement.style.getPropertyValue('--primary') === '#2b2b2b'){
+      document.documentElement.style.setProperty('--primary','#f9593a');
+    }
+    else{
+      document.documentElement.style.setProperty('--primary','#2b2b2b');
+    }
+  }
+
 }
