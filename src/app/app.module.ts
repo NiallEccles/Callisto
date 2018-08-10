@@ -7,6 +7,8 @@ import { CalButtonComponent } from './components/button/cal-button.component';
 import { PillboxComponent } from './components/pillbox/pillbox.component';
 import { TagComponent } from './components/tag/tag.component';
 import { ProductCardComponent } from './components/product-card/product-card.component';
+import { BarComponent } from './components/navigation/bar/bar.component';
+import { DropdownComponent } from './components/dropdown/dropdown.component';
 
 const appRoutes: Routes = [
   { path: '', component: AppComponent },
@@ -21,6 +23,8 @@ const appRoutes: Routes = [
     PillboxComponent,
     TagComponent,
     ProductCardComponent,
+    BarComponent,
+    DropdownComponent,
   ],
   imports: [
     BrowserModule,

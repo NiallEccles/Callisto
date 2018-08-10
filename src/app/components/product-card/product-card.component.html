@@ -1,10 +1,10 @@
 <div class="product-card">
   <div class="product-info">
-    <div class="product-type mont">Audio</div>
-    <div class="product-name lato">Portable Audio Device</div>
+    <div class="product-type mont">{{ productType }}</div>
+    <div class="product-name lato">{{ productName }}</div>
   </div>
   <div class="product-description lato">
-    Lorem ipsum dolor, sit amet consectetur adipisicing elit. At enim quidem laborum iure debitis libero, rerum quisquam sunt quaerat, eveniet maxime quae.
+      {{ productDescription }}
   </div>
   <ng-content select="[cal-projection]"></ng-content>
 </div>
