@@ -7,7 +7,8 @@ import { Component, OnInit } from '@angular/core';
 })
 export class BarComponent implements OnInit {
 
-  public innerWidth: any;
+  public innerWidth: number;
+  public isMobile: boolean;
 
   constructor() { }
 
@@ -15,10 +16,11 @@ export class BarComponent implements OnInit {
     window.addEventListener("resize", ()=>{
       this.innerWidth = window.innerWidth;
       if(this.innerWidth > 620){
-        console.log(this.innerWidth);
+        // console.log(this.innerWidth);
+        this.isMobile = false;
       }
       else{
-        return;
+        this.isMobile = true;
       }
     });
   }
