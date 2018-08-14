@@ -7,6 +7,21 @@
     font-family: 'Lato', sans-serif;
 }
 
+body{
+    margin: 0;
+    padding: 0;
+    background: var(--secondary);
+}
+
 :root {
-    --primary: #f9593a;
+    --primary: #7e57c2;
+    --secondary: #292d3e;
+    --blue: #73ddff;
+    --yellow: #ffcb6b;
+    --grey: #cccccc;
+}
+
+.section{
+    padding: 35px 0;
+    background: var(--secondary);
 }

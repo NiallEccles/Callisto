@@ -9,10 +9,12 @@ import { TagComponent } from './components/tag/tag.component';
 import { ProductCardComponent } from './components/product-card/product-card.component';
 import { BarComponent } from './components/navigation/bar/bar.component';
 import { DropdownComponent } from './components/dropdown/dropdown.component';
+import { ComponentComponent } from './routes/component/component.component';
+import { SectionComponent } from './components/section/section.component';
 
 const appRoutes: Routes = [
   { path: '', component: AppComponent },
-  { path: 'components', component: AppComponent },
+  { path: 'components', component: ComponentComponent },
 ];
 
 @NgModule({
@@ -25,6 +27,8 @@ const appRoutes: Routes = [
     ProductCardComponent,
     BarComponent,
     DropdownComponent,
+    ComponentComponent,
+    SectionComponent,
   ],
   imports: [
     BrowserModule,
