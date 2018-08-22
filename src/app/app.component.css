@@ -16,3 +16,9 @@ section.section-gold{
     right: 0;
     top: 0;
 }
+
+@media only screen and (max-width: 700px) {
+    section.section-gold{
+        width: 50vw;
+    }
+}
