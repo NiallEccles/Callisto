@@ -23,6 +23,6 @@ body{
 }
 
 .section{
-    padding: 35px 0;
+    padding: 35px;
     background: var(--secondary);
 }
