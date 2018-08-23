@@ -11,7 +11,8 @@ body{
     margin: 0;
     padding: 0;
     color: var(--yellow);
-    background: var(--secondary);
+    background: var(--yellow);
+    font-family: sans-serif;
 }
 
 :root {

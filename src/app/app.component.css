@@ -1,24 +1,61 @@
-section.section-white{
+section.section-bottom{
     background: white;
-    height: 50vh;
+    height: 30vh;
     width: 100%;
     position: absolute;
     bottom: 0;
-    padding-top: 20vh;
     font-size: 52px;
-    font-family: sans-serif;
+    transition: width 300ms ease-in-out;
+    overflow-y: scroll;
 }
-section.section-gold{
+
+section.section-left{
+    background: white;
+    position: absolute;
+    top: 50vh;
+    width: 30vw;
+    height: 20vh;
+    transition: width 300ms ease-in-out;
+    overflow-y: scroll;
+}
+
+section.section-bottom h1{
+    margin: 0;
+}
+
+section.section-top-right{
     height: 70vh;
     width: 70vw;
     background: #d1c7b2;
     position: absolute;
     right: 0;
     top: 0;
+    transition: width 300ms ease-in-out;
+    overflow-y: scroll;
+}
+
+section.section-top-left{
+    height: 50vh;
+    width: 30vw;
+    background: var(--secondary);
+    transition: width 300ms ease-in-out;
+    overflow-y: scroll;
 }
 
 @media only screen and (max-width: 700px) {
-    section.section-gold{
+    section.section-bottom{
+        height: 30vh;
+    }
+    section.section-left{
+        top: 20vh;
+        width: 50vw;
+        height: 50vh;
+    }
+    section.section-top-right{
+        width: 50vw;
+    }
+    section.section-top-left{
+        height: 30vh;
         width: 50vw;
     }
 }
