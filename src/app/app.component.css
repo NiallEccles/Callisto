@@ -1,0 +1,24 @@
+section.section-white{
+    background: white;
+    height: 50vh;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    padding-top: 20vh;
+    font-size: 52px;
+    font-family: sans-serif;
+}
+section.section-gold{
+    height: 70vh;
+    width: 70vw;
+    background: #d1c7b2;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+@media only screen and (max-width: 700px) {
+    section.section-gold{
+        width: 50vw;
+    }
+}
