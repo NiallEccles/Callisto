@@ -6,7 +6,7 @@ section.section-bottom{
     bottom: 0;
     font-size: 52px;
     transition: width 300ms ease-in-out;
-    overflow-y: scroll;
+    overflow-y: auto;
 }
 
 section.section-left{
@@ -16,7 +16,7 @@ section.section-left{
     width: 30vw;
     height: 20vh;
     transition: width 300ms ease-in-out;
-    overflow-y: scroll;
+    overflow-y: auto;
 }
 
 section.section-bottom h1{
@@ -31,7 +31,7 @@ section.section-top-right{
     right: 0;
     top: 0;
     transition: width 300ms ease-in-out;
-    overflow-y: scroll;
+    overflow-y: auto;
 }
 
 section.section-top-left{
@@ -39,7 +39,7 @@ section.section-top-left{
     width: 30vw;
     background: var(--secondary);
     transition: width 300ms ease-in-out;
-    overflow-y: scroll;
+    overflow-y: auto;
 }
 
 @media only screen and (max-width: 700px) {
