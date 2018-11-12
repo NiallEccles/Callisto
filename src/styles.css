@@ -11,7 +11,7 @@ body{
     margin: 0;
     padding: 0;
     color: var(--yellow);
-    background: var(--white);
+    background: var(--grey);
     font-family: sans-serif;
 }
 
@@ -20,8 +20,8 @@ body{
     --secondary: #292d3e;
     --blue: #73ddff;
     --yellow: #ffcb6b;
-    --grey: #cccccc;
-    --white: #fbfbfb;
+    --grey: #f5f2f2;
+    --white: #ffffff;
 }
 
 .section{
