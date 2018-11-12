@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import * as eva from 'eva-icons';
 
 @Component({
   selector: 'dropdown',

@@ -11,7 +11,7 @@ body{
     margin: 0;
     padding: 0;
     color: var(--yellow);
-    background: var(--yellow);
+    background: var(--white);
     font-family: sans-serif;
 }
 
@@ -21,6 +21,7 @@ body{
     --blue: #73ddff;
     --yellow: #ffcb6b;
     --grey: #cccccc;
+    --white: #fbfbfb;
 }
 
 .section{

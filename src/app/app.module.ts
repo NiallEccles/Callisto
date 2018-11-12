@@ -28,14 +28,14 @@ const appRoutes: Routes = [
     BarComponent,
     DropdownComponent,
     ComponentComponent,
-    SectionComponent,
+    SectionComponent
   ],
   imports: [
     BrowserModule,
     RouterModule.forRoot(
       appRoutes,
       { enableTracing: false }
-),
+    ),
   ],
   providers: [],
   bootstrap: [AppComponent]
